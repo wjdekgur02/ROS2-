@@ -1,0 +1,14 @@
+<CycloneDDS>
+  <Domain>
+    <General>
+      <NetworkInterfaceAddress>tailscale0</NetworkInterfaceAddress>
+      <AllowMulticast>false</AllowMulticast>
+    </General>
+    <Discovery>
+      <Peers>
+        <Peer address="100.77.210.123"/> <!-- Jetson -->
+        <Peer address="100.80.194.27"/>  <!-- RPi -->
+      </Peers>
+    </Discovery>
+  </Domain>
+</CycloneDDS>
